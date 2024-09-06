@@ -5,6 +5,7 @@ import { IoIosBody } from 'react-icons/io'
 import './Navbar.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import AuthPopup from '../AuthPopup/AuthPopup'
 const Navbar = () => {
     const [isloggedin, setIsloggedin] = React.useState<boolean>(false)
 
